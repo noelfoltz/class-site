@@ -1,0 +1,29 @@
+html{
+  background-color:lightyellow
+}
+
+p{
+  color:#FFD1DC;
+  font-size: 47px;
+  font-family:cursive
+}
+.smoothie-img{
+  width: 300px;
+  height: 350px;
+  display:block;
+  margin:0 auto
+}
+h1{
+  text-align: center;
+
+}
+
+.special{
+  color: white;
+  background: #D94496;
+  border: 5px dotted blue;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 70px;
+  width: 100px;
+}
