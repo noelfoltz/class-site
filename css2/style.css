@@ -7,6 +7,17 @@ body{
 }
 
 p{
-  font-size: 16px;
+  font-size: 30px;
+  color: pink;
+  font-weight:lighter;
+  text-decoration:underline;
+  font-style:italic;
+  text-align: center;
+}
+
+.rotate{
+  transform:rotate(30deg);
+  color: white;
+  display: inline-block;
 
 }
