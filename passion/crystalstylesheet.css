@@ -9,14 +9,23 @@ html{
   font-style: normal;
   color: white;
 }
+
  img{
    box-shadow:10px, 10px, 5px, grey;
-
  }
 
  p{
   margin: 20px;
   border: 10px;
+ }
+
+ a {
+   text-decoration: none;
+   display:inline-block;
+ }
+
+ a:hover {
+   transform:scale(1.2);
  }
 
 h1{
