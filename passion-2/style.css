@@ -1,0 +1,45 @@
+*{
+  box-sizing:border-box;
+}
+
+html{
+  background-color: black;
+  font-family: la-bohemienne, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+ }
+
+ p{
+  margin: 20px;
+  border: 10px;
+ }
+
+ a {
+   display:inline-block;
+ }
+
+ a:hover {
+   transform:scale(1.2);
+ }
+
+h1{
+  margin: 20px;
+  border: 10px;
+  padding: 20px;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.back {color: white;}
