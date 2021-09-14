@@ -22,7 +22,12 @@ html{
   font-size: 20px;
  }
 
-
+ul{
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  list-style: none;
+}
  a {
    display:inline-block;
 
