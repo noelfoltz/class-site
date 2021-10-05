@@ -1,0 +1,31 @@
+*{
+  box-sizing:border-box;
+  }
+
+img{
+  max-width: 100%
+}
+
+body{
+  background:#adbcdf;
+}
+
+.container{
+  background: #bd899e;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  height:500px;
+  justify-content:center;
+  align-items:center;
+}
+
+.item{
+  background:#fbf3d2;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}

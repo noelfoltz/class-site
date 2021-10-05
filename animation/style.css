@@ -1,0 +1,68 @@
+*{
+  box-sizing:border-box;
+  }
+
+img{
+  max-width: 100%
+}
+
+body{
+  background:#4F53E2;
+  animation-name: sunset;
+  /*animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;*/
+  animation: sunset 3s 2s infinite alternate linear;
+}
+
+.box{
+  width:200px;
+  height: 200px;
+  border-radius: 50px;
+  background: #FEC7B9;
+  position: fixed;
+  top: 40%;
+  left:43%;
+  /*animation: spin 4s infinite linear;*/
+  /*transform: translate(-50%,-50%);*/
+}
+.box:hover{
+  animation: spin 4s infinite linear;
+}
+
+@keyframes sunset{
+  0%{
+    background: #FFCA3E;
+  }
+  20%{
+    background: #FF6F50;
+  }
+  40%{
+    background: #D03454;
+  }
+  60%{
+    background: #9C2162;
+  }
+  80%{
+    background: #772F67:
+  }
+  100%{
+    background: navy;
+  }
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg) scale(1);
+    background: #772F67;
+  }
+  50%{
+    transform: rotate(180deg) scale(2);
+    background:#FF6F50;
+  }
+  100%{
+    transform: rotate(360deg) scale(1);
+    background: #772F67;
+  }
+}
