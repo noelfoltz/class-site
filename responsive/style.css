@@ -1,0 +1,37 @@
+*{
+  box-sizing:border-box;
+  }
+
+img{
+  max-width: 100%
+}
+
+html{
+  background:	#ed1b76;
+}
+
+.container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+}
+
+.item{
+  background:#ffffff;
+  width:200px;
+  height:200px;
+}
+
+@media screen and (max-width:800px){
+  html{
+    background:#075447;
+  }
+
+  .container{
+    flex-direction:column;
+  }
+
+  .item{
+    width:100%;
+  }
+}
