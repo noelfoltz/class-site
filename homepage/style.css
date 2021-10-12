@@ -1,0 +1,30 @@
+*{
+  box-sizing:border-box;
+  }
+
+img{
+  max-width: 100%
+}
+
+html{
+  background-image: url('paperbackground.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top:0px;
+}
+
+.candle{
+  position:fixed;
+  top:0px;
+  left:400px;
+}
+
+.journal1{
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:700px;
+  width:700px;
+  border:none;
+}

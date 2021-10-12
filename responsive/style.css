@@ -10,6 +10,10 @@ html{
   background:	#ed1b76;
 }
 
+body{
+  margin:0px;
+}
+
 .container{
   display:flex;
   flex-wrap:wrap;
@@ -22,7 +26,20 @@ html{
   height:200px;
 }
 
-@media screen and (max-width:800px){
+.object{
+  background:	#f44786;
+  width:50vw;
+  height:50vh;
+}
+
+.little-box{
+  background:#cc4e00;
+  width:50%;
+  height:50%;
+}
+
+/*higher width must be above-order matters*/
+@media screen and (min-width:800px){
   html{
     background:#075447;
   }
