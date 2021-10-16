@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- first we set up the button that is triggering our javascript -->
+  <!-- note that the element doesn't need to be a <button> to work -->
+  <button onclick="toggle()">Click me...</button>
+
+  <!-- the box that we will be altering with our javascript -->
+  <div id="box" class="sidebar active">
+    the box
+  </div>
+
+  <div class='marquee'>Came in like a vision from the old west wind
+Like a bright new dream that I was stepping in
+I saw your face and I knew it was a sign
+And I still think about that moment all of the time</div>
+
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="jquery.marquee.min.js"></script>
+  <script src="functions.js"></script>
+</body>
+
+</html>
