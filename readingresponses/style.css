@@ -1,4 +1,4 @@
-html{
+html {
   background-image: url('gradientbackground.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -7,44 +7,30 @@ html{
   font-weight: 400;
   font-style: normal;
 }
-h1{
-  background-color:#DCD0FF;
 
-  }
+h1 {
+  background-color: #DCD0FF;
+  width: 100%
+}
 
-a{
+a {
   background-color: ;
   text-decoration: none;
   color: white;
-
-}
-ul{
-  list-style:square;
 }
 
-.special{
-  color: white;
-  background: ;
-  border: 5px dotted #B57EDC;
-  border-radius: 20px;
-  padding: 40px;
-  margin: 70px;
-  width: 100px;
+ul {
+  list-style: square;
 }
 
-.background{
+.background {
   color: black;
-  background:#DCD0FF;
+  background: #DCD0FF;
   border-radius: 20px;
   padding: 40px;
   margin: 70px;
   width: 100px;
 }
-.special:hover {
-  background:#B57EDC;
-}
-
-.back {color: white;}
 
 .btn {
   border: none;
@@ -56,4 +42,6 @@ ul{
 }
 
 /* On mouse-over */
-.btn:hover {background: #eee;}
+.btn:hover {
+  background: #eee;
+}

@@ -8,3 +8,8 @@ $( function() {
     // set clicked element to a higher level
     $(this).css('z-index', 11);
  });
+
+ function play() {
+  var audio = document.getElementById("audio");
+  audio.play();
+}

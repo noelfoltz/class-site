@@ -1,26 +1,42 @@
-html{
-  background-image: url('gradientbackground.jpeg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  font-family: poiret-one, sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.back {
+    color: white;
 }
+
+.special {
+    color: white;
+    border: 5px dotted #B57EDC;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 70px;
+    width: 100px;
+}
+
+.special:hover {
+  background:#B57EDC;
+}
+
+a {
+    background-color: ;
+    text-decoration: none;
+    color: white;
+}
+
 h1{
   background-color:#DCD0FF;
+}
 
+.background {
+    color: black;
+    background: #DCD0FF;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 70px;
+    width: 100px;
   }
 
-a{
-  background-color: ;
-  text-decoration: none;
-  color: white;
-
-}
-ul{
-  display:block;
-  list-style-type: none;
+ul {
+    display: block;
+    list-style-type: none;
     margin: 60;
     margin-top: 60px;
     margin-right: 60px;
@@ -33,38 +49,12 @@ ul{
     padding-left: 40px;
 }
 
-.special{
-  color: white;
-  background: ;
-  border: 5px dotted #B57EDC;
-  border-radius: 20px;
-  padding: 40px;
-  margin: 70px;
-  width: 100px;
+html {
+    background-image: url(gradientbackground.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: poiret-one, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
-.background{
-  color: black;
-  background:#DCD0FF;
-  border-radius: 20px;
-  padding: 40px;
-  margin: 70px;
-  width: 100px;
-}
-.special:hover {
-  background:#B57EDC;
-}
-
-.back {color: white;}
-
-.btn {
-  border: none;
-  background-color: inherit;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
-}
-
-/* On mouse-over */
-.btn:hover {background: #eee;}
